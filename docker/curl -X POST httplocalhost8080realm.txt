@@ -1,0 +1,12 @@
+curl -X POST "http://localhost:8080/realms/Go2Win}/protocol/openid-connect/token" -H "Content-Type: application/x-www-form-urlencoded"    -d "username=oswaldao@gmail.com"     -d "password=Bingo$4321"     -d "grant_type=password"     -d "client_id=Go2WinClient"     -d "a76d6dc8-a76d-4703-a25e-902de8781d41"
+
+Auth Url
+http://localhost:8080/auth/realms/Go2Win/protocol/openid-connect/auth
+
+Access Token
+ http://localhost:8080/auth/realms/Go2Win/protocol/openid-connect/token
+
+cliente TOKEN
+eyJhbGciOiJIUzUxMiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI3Y2MwNDhmZC1jZDM3LTQ1NjUtODU5ZS00OWMzZDBmMjJkZTMifQ.eyJleHAiOjE4MTc3NTM0OTgsImlhdCI6MTczMTM1MzQ5OCwianRpIjoiNzY5ZWQzYjUtZjM3YS00YzhjLTkwN2EtYzRmZTQ4ZmJmMDYzIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3JlYWxtcy9HbzJXaW4iLCJhdWQiOiJodHRwOi8vbG9jYWxob3N0OjgwODAvcmVhbG1zL0dvMldpbiIsInR5cCI6IkluaXRpYWxBY2Nlc3NUb2tlbiJ9.AbonvWo1GIqgiqUDh8sh-RZNjy-mze2mvyDI9ONuLsVBJdYJtZRwbEgr0yu8Pa2eTsVZafjnxJSqgJxp7TVBnQ
+
+http://localhost:8080/realms/Go2Win/login-actions/authenticate?session_code=ov8D5jPJTJFY0yBs6LCzOqLdBW93UfBtHLpA7aRaSfI&execution=4a0d4a70-8347-41c1-85c3-7b1c15b2eb4e&client_id=Go2WinClient&tab_id=JqCSl90FKU4&client_data=eyJydSI6Imh0dHBzOi8vd3d3LmtleWNsb2FrLm9yZy9hcHAvI3VybD1odHRwOi8vbG9jYWxob3N0OjgwODAmcmVhbG09R28yV2luJmNsaWVudD1HbzJXaW5DbGllbnQiLCJydCI6ImNvZGUiLCJybSI6ImZyYWdtZW50Iiwic3QiOiI4NDRmYWQ2OS1iNjhlLTQ2OWUtYjliMy0wMmJmOTc2YmE3OTYifQ
